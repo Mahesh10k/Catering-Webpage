@@ -1,7 +1,6 @@
 
 body {
-    position: relative;
-    height: 490vh;
+    height: 400vh;
 }
     
 * {
@@ -20,7 +19,7 @@ nav {
     align-items: center;
     letter-spacing: 3px;
     box-shadow: 2px 2px 3px gray;
-    width: auto;
+    width: 98.8vw;
 
 }
 nav a {
@@ -40,14 +39,12 @@ nav>div:nth-child(2) {
     align-items: center;
 }
 header {
-    position: absolute; 
-    top: 0;
+    margin-top: -30px;
     padding: 0px 30px;
     background-image: url("https://www.w3schools.com/w3images/hamburger.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 100vh;
     width: 98.8vw;
     letter-spacing: 3px;
 }
@@ -58,23 +55,21 @@ header >h1 {
     color: gray;
 }
 main {
-    position: absolute;
-    top: 100vh;
+    width: 98.7vw;
     padding: 100px 100px;
 }
 .items {
     display: grid;
-    grid-template-columns: 500px 500px;
+    grid-template-columns: 40vw 40vw;
     justify-content: space-evenly;
-    gap: 100px;
-    row-gap: 200px;
-}
-main div {
-    height: 600px;
+    height: auto;
+    row-gap: 10%;
 }
 main img {
     opacity: 0.8;
     padding-top: 50px;
+    width: 90%;
+    place-items: center;
 }
 main h1  {
     text-align: center;
@@ -113,8 +108,6 @@ main section {
     opacity: 0.8;
 }
 #contact {
-    position: absolute;
-    top: 380vh;
     padding: 0px 100px;
 }
 #contact h1 {
@@ -144,8 +137,6 @@ main section {
     background-color: gray;
 }
 footer{
-    position: absolute;
-    top: 490vh;
     background-color: rgb(207, 206, 206);
     text-align: center;
     width: 100%;
